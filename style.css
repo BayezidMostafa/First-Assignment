@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading-panel {
+    text-shadow: 2px 2px 5px black;
+    background-image: url(images/flood-picture.png);
+    background-size: cover;
+    padding: 12% 0 20% 0;
+}
+
+.all-heading-elements {
+    text-align: center;
+    color: #ffffff;
+}
+
+#heading-title {
+    margin: auto;
+    font-size: 4rem;
+    width: 50%;
+}
+
+.all-paragraph {
+    padding: 20px 0;
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 100;
+    width: 40%;
+}
+
+.all-buttons {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 15px 25px;
+    background-color: #FF5C17;
+    color: white;
+    border-radius: 10px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.donate-panel {
+    padding: 8% 0 6% 0;
+}
+
+.donate-catagory {
+    text-align: center;
+}
+
+.title {
+    font-size: 3.2rem;
+}
+
+
+.donate-amount-panel {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+
+.in-taka {
+    font-weight: 700;
+    font-size: 2rem;
+    background-color: #d3d3d3;
+    padding: 50px 50px;
+    border-radius: 10px;
+}
+
+.selected {
+    border: 3px solid #FF5C17;
+    background-color: #d8cac4;
+    color: #FF5C17;
+}
+
+.custom-donate-panel {
+    margin-bottom: 30px;
+    color: gray;
+    font-size: 1.2rem;
+    border-color: transparent;
+    padding: 50px 500px 20px;
+    border-bottom: 2px solid #cacaca;
+    outline: none;
+}
+
+.donate-plan-panel {
+    padding: 0 0 6% 0;
+}
+
+.plan-info {
+    text-align: center;
+}
+
+.package-container {
+    display: flex;
+    justify-content: center;
+}
+
+.package {
+    padding: 80px 20px;
+    margin: 30px;
+    width: 20%;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 5px;
+}
+
+.first {
+    background-color: #9be9e9;
+}
+
+.second {
+    background-color: #e69877;
+}
+
+.third {
+    background-color: #a46fd6;
+}
+
+.package-title {
+    font-size: 1.9rem;
+}
+
+.package-details {
+    font-size: 1.2rem;
+}
+
+.package-icon {
+    width: 30%;
+}
+
+.explore-panel-contents {
+    text-align: center;
+}
+
+.explore-panel {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+}
+
+.victim-scene {
+    font-size: 1.1rem;
+    color: #444444;
+    box-shadow: 2px 2px 15px gray;
+    background-color: #2b00631a;
+    margin: 20px 20px;
+    padding: 50px 50px 10px 50px;
+    border-radius: 10px;
+}
+
+.victim-scene .victim-image {
+    max-width: 650px;
+    border-radius: 10px;
+}
+
+.explore-button {
+    padding: 3% 0 5% 0;
+}
+
+.update-panel {
+    text-align: center;
+}
+
+#subscribers-panel {
+    border-radius: 5px;
+    margin: auto;
+    width: 50%;
+    padding: 120px 0;
+    background-color: #f0ecb285;
+}
+
+#mail-panel {
+    background-color: #e2e2e2;
+    outline: none;
+    border-color: transparent;
+    border-radius: 10px 0px 0 10px;
+    padding: 10px 0 10px 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+#subscriber-button {
+    cursor: pointer;
+    position: relative;
+    left: -4px;
+    color: #dadada;
+    background-color: #FF5C17;
+    border-color: transparent;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px 40px;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+#footer-panel {
+    background-color: #000000;
+    text-align: center;
+    padding: 2% 0;
+    margin-top: 10%;
+}
+
+#footer-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#footer-sub {
+    position: relative;
+    color: #ffffff;
+    font-size: 1.1rem;
+    top: -10px;
+}
